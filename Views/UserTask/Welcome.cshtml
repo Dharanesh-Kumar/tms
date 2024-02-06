@@ -1,0 +1,88 @@
+@model UserTask;
+@{Layout =null;}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Time Sheet</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            padding: 15px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .welcome-message {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .task-system-content {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #666;
+        }
+
+        .task-dropdown {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a asp-controller="UserTask" asp-action="TaskSubmit">Task Submission</a>
+        <a asp-controller="UserTask" asp-action="ViewSubmit">My Submission</a>
+        <a  asp-controller="UserTask" asp-action="Logout">Logout</a>
+    </header>
+
+    <main>
+        <div class="welcome-message">
+            <p>Welcome to the User Time Sheet System!</p>
+        </div>
+
+        <div class="task-system-content">
+            <p>Manage your tasks efficiently with our user-friendly time sheet system. Keep track of your work and submit tasks effortlessly.</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 User Time Sheet System
+    </footer>
+</body>
+
+</html>

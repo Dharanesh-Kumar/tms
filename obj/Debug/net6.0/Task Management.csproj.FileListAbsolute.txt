@@ -1,0 +1,68 @@
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\appsettings.Development.json
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\appsettings.json
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Task Management.staticwebassets.runtime.json
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Task Management.exe
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Task Management.deps.json
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Task Management.runtimeconfig.json
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Task Management.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Task Management.pdb
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Azure.Core.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Azure.Identity.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Training\Dot Net Project\Task Management\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.csproj.AssemblyReference.cache
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.AssemblyInfoInputs.cache
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.AssemblyInfo.cs
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.csproj.CoreCompileInputs.cache
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.MvcApplicationPartsAssemblyInfo.cache
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.RazorAssemblyInfo.cache
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.RazorAssemblyInfo.cs
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\staticwebassets.build.json
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\staticwebassets.development.json
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\scopedcss\bundle\Task Management.styles.css
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\scopedcss\projectbundle\Task Management.bundle.scp.css
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.csproj.CopyComplete
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.dll
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\refint\Task Management.dll
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.pdb
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\Task Management.genruntimeconfig.cache
+C:\Training\Dot Net Project\Task Management\obj\Debug\net6.0\ref\Task Management.dll

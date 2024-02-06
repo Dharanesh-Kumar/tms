@@ -1,0 +1,98 @@
+@model UserModel;
+@{Layout =null;}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .login-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+
+        .login-container button {
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .forgot-signup {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            text-align: right;
+        }
+
+        .forgot-signup a {
+            color: #333;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a asp-controller="Home" asp-action="Index">Home</a>
+        <a asp-controller="Home" asp-action="Privacy">About</a>
+    </header>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form method="post" asp-controller="User">
+            <input type="text" asp-for="AceId" placeholder="AceId" name="AceId" pattern="^ACE\d{4}$" title="ACE followed by four numbers" required>
+            <input type="password" asp-for="Password" placeholder="Password" name="password" required>
+            <p style="color:red">@ViewBag.message</p>
+            <button type="submit">Login</button>
+        </form>
+    
+<div class="forgot-signup">
+        <a asp-controller="User" asp-action="ForgetPass">Forgot Password</a>
+        <span>|</span>
+        <a asp-controller="User" asp-action="SignUp">Sign Up</a>
+    </div>
+    </div>
+
+    
+</body>
+</html>

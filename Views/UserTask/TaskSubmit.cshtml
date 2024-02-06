@@ -1,0 +1,125 @@
+@model UserTask;
+@{Layout =null;}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Sheet Submission</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            padding: 15px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#">Home</a>
+        <h1>Time Sheet Submission</h1>
+        <a asp-controller="UserTask" asp-action="Welcome">Back</a>
+    </header>
+
+    <main>
+        <form method="post">
+
+            <label asp-for="Date">Date:</label>
+            <input type="date"  asp-for="Date" required>
+
+            <label asp-for="Project">Project Name:</label>
+            <select asp-for="Project" required>
+                <option value="bench" >Select</option>
+                <option value="General Bench" >General Bench</option>
+            </select>
+
+            <label asp-for="Task">Task:</label>
+            <select asp-for="Task" required>
+                <option value="bench" >Select</option>
+                <option value="bench"  >Bench</option>
+                <option value="self-exploring">Self Exploring</option>
+                <option value="dot-net-session">Dot Net Session</option>
+                <option value="implementation">Implementation</option>
+                <!-- Add more task options as needed -->
+            </select>
+
+            <label  asp-for="WorkPlace" >Workplace:</label>
+            <select asp-for="WorkPlace" required>
+                <option value="bench">Select</option>
+                <option value="on-premises">On-Premises</option>
+                <option value="wfh">WFH</option>
+                <option value="client-location">Client Location</option>
+                <option value="onsite">Onsite</option>
+                <option value="others">Others</option>
+                <!-- Add more workplace options as needed -->
+            </select>
+
+            <label asp-for="Decription" >Description:</label>
+            <textarea  rows="4" asp-for="Decription" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+@model UserModel;
+@{Layout =null;}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .forgot-password-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .forgot-password-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+
+        .forgot-password-container button {
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a asp-controller="Home" asp-action="Index">Home</a>
+        <a asp-controller="Home" asp-action="Privacy">About</a>
+    </header>
+
+    <div class="forgot-password-container">
+        <h2>Forgot Password</h2>
+        <form id="forgotPasswordForm" method="post">
+            <input type="text" asp-for="AceId" placeholder="ACE ID" name="aceId" required>
+            <input type="password" asp-for="NewPassword" class="form-control" id="NewPassword" placeholder="New Password" name="NewPassword"
+                pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@@$!%*?&])[A-Za-z\d@@$!%*?&]{8,}"
+                title="Password must have at least one small letter, one capital letter, one number, one special character (@@, $, !, %, *, ?, or &), and a minimum length of 15 characters."
+                required>
+            @* <p style="color:red">@ViewBag.pass</p> *@
+            <button type="submit">Reset Password</button>
+        </form>
+    </div>
+</body>
+</html>
